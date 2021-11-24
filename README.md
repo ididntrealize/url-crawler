@@ -12,7 +12,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -23,8 +22,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://coreyb.org)
 
 This project is designed to input a JSON list of links to output JSON with data scraped from each of the links. You can scrape any data that you want, by using site specific targetting (similar method to element targetting with jQuery.js)
 
