@@ -1,0 +1,20 @@
+{
+  "name": "crawl-paginated-lists-and-item-links",
+  "version": "1.0.0",
+  "description": "crawl a paginated grid page and follow up item links\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C data from item links",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "puppeteer": "^7.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "Corey Boiko",
+  "license": "MIT"
+}
