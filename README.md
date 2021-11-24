@@ -32,7 +32,7 @@ Why use this project:
 * Use config options to decide how to print or save results into timestamped file
 * Generate Report on errors and pages where your targetting functions fail
 
-Of course, there are always further optimizations and useful tools to add. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Project made during contract work for Digital Yalo, and expressly given permission to use and share. Special thanks to Mike from Dock Street Media for all your support.
+Of course, there are always further optimizations and useful tools to add. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Project made during contract work for Digital Yalo, and expressly given permission to use and share.
 
 
 
