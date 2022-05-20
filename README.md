@@ -84,13 +84,15 @@ _Below is an example of how you can install and set up your node and puppeteer s
 
 ## Config
 
-Finally, you will have to edit the index.js file:
-* Change config variable currentScrapePrefix to what your import is named. 
-* Choose config options to supress debugging console logs
-* Choose config options to print results to /exports/
-* Choose config options to run the scraper headless
-* Choose config options to limit pages scraped
-
+Scrape config options are found in the index.js file:
+```js
+//Default values
+debug = true                               //verbose console output per input .json items
+printResultsToFile = true                  //after scrape completion, create .json output file in exports/ dir
+hideBrowser = true                         //hide browser opening for each link in your input .json
+limitPagesToScrape = false                 //set as integer (limitPagesToScrape = 15) to limit number of links to scrape from from inputted link list
+currentScrapePrefix = "wikipediaArticles"  //create your own unique scrape title to allow multiple projects running simultaneously
+```
 <!-- USAGE EXAMPLES -->
 ## Usage Example
 
@@ -104,6 +106,9 @@ The file that you create in /site-specific-targets/ controls what happens once t
 * Replace the js selector in the variable: target
 * Replace .text() methods with .html() as needed
 
-
+Finally, you will have to edit the index.js file:
+* Change currentScrapePrefix to what your import is named. 
+* Create /imports/yourScrapePrefix.json
+* Create /site-specific-targets/yourScrapePrefix.js
 
 <p align="right">(<a href="#top">back to top</a>)</p>
