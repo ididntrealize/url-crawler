@@ -57,11 +57,6 @@ Thanks to [othneildrew](https://github.com/othneildrew/Best-README-Template/blob
 
 To get a local copy up and running follow these simple steps.
 
-
-### Installation
-
-_Below is an example of how you can install and set up your node and puppeteer scraper._
-
 1. Clone the repo
    ```sh
    git clone https://github.com/ididntrealize/url-crawler.git
@@ -84,7 +79,7 @@ _Below is an example of how you can install and set up your node and puppeteer s
 
 ## Config
 
-Scrape config options are found in the index.js file:
+Scrape config options are found at the top of the index.js file:
 ```js
 //Default values
 debug = true                               //verbose console output per input .json items
