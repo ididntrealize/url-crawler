@@ -70,21 +70,29 @@ _Below is an example of how you can install and set up your node and puppeteer s
    ```sh
    npm install
    ```
-3. Start example scrape
-   ```sh
-   node index.js
-   ```
-4. create empty folders in root directory:
+3. Create empty folders in root directory:
    ```
    exports/
    logs/
    ```
+4. Start example scrape
+   ```sh
+   node index.js
+   ```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Config
 
+Finally, you will have to edit the index.js file:
+* Change config variable currentScrapePrefix to what your import is named. 
+* Choose config options to supress debugging console logs
+* Choose config options to print results to /exports/
+* Choose config options to run the scraper headless
+* Choose config options to limit pages scraped
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Usage Example
 
 This project includes sample data with links to Wikipedia. It is intended only as an example, but not meant for extended use. <a target="_blank" href="https://www.mediawiki.org/wiki/API:Search">Wikipedia has an API</a> which would be far more efficient than this scraper.
 
@@ -96,12 +104,6 @@ The file that you create in /site-specific-targets/ controls what happens once t
 * Replace the js selector in the variable: target
 * Replace .text() methods with .html() as needed
 
-Finally, you will have to edit the index.js file:
-* Change config variable currentScrapePrefix to what your import is named. 
-* Choose config options to supress debugging console logs
-* Choose config options to print results to /exports/
-* Choose config options to run the scraper headless
-* Choose config options to limit pages scraped
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
