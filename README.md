@@ -75,7 +75,8 @@ _Below is an example of how you can install and set up your node and puppeteer s
    node index.js
    ```
 4. create empty folders in root directory:
-   ```exports/
+   ```
+   exports/
    logs/
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
